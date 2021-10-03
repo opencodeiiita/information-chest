@@ -4,9 +4,9 @@ A Flutter application for reading facts and information, just like a digital enc
 
 ## Getting Started
 
-    - [Setup Git](https://git-scm.com/downloads)
-    - [Set up flutter and Android Studio](https://flutter.dev/docs/get-started/install)
-    - [Or setting up VS code for flutter](https://flutter.dev/docs/development/tools/vs-code)
+- [Setup Git](https://git-scm.com/downloads)
+- [Set up flutter and Android Studio](https://flutter.dev/docs/get-started/install)
+- [Or setting up VS code for flutter](https://flutter.dev/docs/development/tools/vs-code)
 
 ## Local Setup
 
@@ -33,7 +33,7 @@ Please help us follow the best practice to make it easy for the reviewer as well
 - Single commit per pull request and name the commit as something meaningful, example: Adding <-your-name-> in students section.
 - Reference the issue numbers in the commit message if it resolves an open issue.Follow the PR template strictly.
 - Do not use unnecessary variables or functions and follow a easy and understandable code structure with proper comments.
-- Provide the link to live heroku pages from your forked repository or relevant screenshots for easier review.
+- Provide the relevant screenshots for easier review.
 - Pull Requests older than 2 days with no response from the contributor shall be marked closed.
 - Do not make PR which is not related to any issues. You can create an issue and solve it once we approve them.
 - Avoid duplicate PRs, if need be comment on the older PR with the PR number of the follow-up (new PR) and close the obsolete PR yourself.
