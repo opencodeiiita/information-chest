@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'Universe.dart';
+import 'package:information_chest/HomeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +13,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Information Chest',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: const MyHomePage(title: 'Information Chest'));
+      title: 'Information Chest',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomeScreen(),
+      // home: const MyHomePage(title: 'Information Chest'),
+    );
   }
 }
 
