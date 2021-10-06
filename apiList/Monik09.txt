@@ -1,0 +1,21 @@
+Science And technology: https://tle.ivanstanojevic.me/#/docs
+
+Facts: 
+1. Anime Facts: https://chandan-02.github.io/anime-facts-rest-api/
+2. Fun Facts: https://asli-fun-fact-api.herokuapp.com/
+
+World History:https://data.oddsmagnet.com/
+
+
+The Universe: https://github.com/astrocatalogs/OACAPI
+
+
+The Natural World: https://www.programmableweb.com/api/suncalc
+
+The Human Body:https://english.api.rakuten.net/navii/api/bmi-calculator
+
+
+Arts, Sports, and Entertainment: 
+1. Events finder: https://www.eventbrite.com/developer/v3/
+2. Dribbble: https://developer.dribbble.com/
+3. https://agify.io/
