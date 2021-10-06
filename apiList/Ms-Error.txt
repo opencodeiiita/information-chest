@@ -1,0 +1,4 @@
+Planet Earth - https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&output=json&tzshift=0
+Science and Technology - https://api.coinpaprika.com/v1/coins/btc-bitcoin
+The Natural World - https://www.fishwatch.gov/api/species
+Arts, Sports and Entertainment - http://hp-api.herokuapp.com/api/characters
