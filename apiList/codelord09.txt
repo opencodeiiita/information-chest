@@ -1,0 +1,4 @@
+sports :- http://ergast.com/mrd/
+          https://www.programmableweb.com/api/bets-bet365-rest-api-v1
+          
+Environment :- https://meersens.com/api/?lang=en
