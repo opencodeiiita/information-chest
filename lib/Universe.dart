@@ -7,22 +7,20 @@ import 'dart:convert';
 import 'package:information_chest/CelestialBodyModel.dart';
 
 class Universe extends StatelessWidget {
-
   final String apiUrl = "https://api.le-systeme-solaire.net/rest/bodies/";
 
   Future<List<dynamic>> fetchCelestialObjects() async {
     List<CelestialBodyModel> celestialBody = [];
 
-    try{
+    try {
       final response = await http.get(Uri.parse(apiUrl));
       var res = await json.decode(response.body)['bodies'];
-      for(var CelestialBody in res){
+      for (var CelestialBody in res) {
         celestialBody.add(CelestialBodyModel.fromJson(CelestialBody));
       }
 
       // print(celestialBody.length);
-    }
-    catch(e){
+    } catch (e) {
       print("here");
       print(e);
       print("here");
@@ -59,40 +57,72 @@ class Universe extends StatelessWidget {
                             leading: Text(CelestialBody.englishName),
                             title: Column(
                               children: [
-                                displayInfo("Scientific name", CelestialBody.name),
-                                displayInfo("IsPlanet", CelestialBody.isPlanet.toString()),
-                                displayInfo("SemiMajor Axis", CelestialBody.semimajorAxis.toString()),
-                                displayInfo("perihelion", CelestialBody.perihelion.toString()),
-                                displayInfo("aphelion", CelestialBody.aphelion.toString()),
-                                displayInfo("eccentricity", CelestialBody.eccentricity.toString()),
-                                displayInfo("inclination", CelestialBody.inclination.toString()),
+                                displayInfo(
+                                    "Scientific name", CelestialBody.name),
+                                displayInfo("IsPlanet",
+                                    CelestialBody.isPlanet.toString()),
+                                displayInfo("SemiMajor Axis",
+                                    CelestialBody.semimajorAxis.toString()),
+                                displayInfo("perihelion",
+                                    CelestialBody.perihelion.toString()),
+                                displayInfo("aphelion",
+                                    CelestialBody.aphelion.toString()),
+                                displayInfo("eccentricity",
+                                    CelestialBody.eccentricity.toString()),
+                                displayInfo("inclination",
+                                    CelestialBody.inclination.toString()),
                                 Text("Mass"),
-                                displayInfo("massValue", CelestialBody.mass.massValue.toString()),
-                                displayInfo("massExponent", CelestialBody.mass.massExponent.toString()),
+                                displayInfo("massValue",
+                                    CelestialBody.mass.massValue.toString()),
+                                displayInfo("massExponent",
+                                    CelestialBody.mass.massExponent.toString()),
                                 Text("Vol"),
-                                displayInfo("volValue", CelestialBody.vol.volValue.toString()),
-                                displayInfo("volExponent", CelestialBody.vol.volExponent.toString()),
-                                displayInfo("density", CelestialBody.density.toString()),
-                                displayInfo("gravity", CelestialBody.gravity.toString()),
-                                displayInfo("escape", CelestialBody.escape.toString()),
-                                displayInfo("meanRadius", CelestialBody.meanRadius.toString()),
-                                displayInfo("equaRadius", CelestialBody.equaRadius.toString()),
-                                displayInfo("polarRadius", CelestialBody.polarRadius.toString()),
-                                displayInfo("flattening", CelestialBody.flattening.toString()),
-                                displayInfo("dimension", CelestialBody.dimension.toString()),
-                                displayInfo("sideralOrbit", CelestialBody.sideralOrbit.toString()),
-                                displayInfo("sideralRotation", CelestialBody.sideralRotation.toString()),
+                                displayInfo("volValue",
+                                    CelestialBody.vol.volValue.toString()),
+                                displayInfo("volExponent",
+                                    CelestialBody.vol.volExponent.toString()),
+                                displayInfo("density",
+                                    CelestialBody.density.toString()),
+                                displayInfo("gravity",
+                                    CelestialBody.gravity.toString()),
+                                displayInfo(
+                                    "escape", CelestialBody.escape.toString()),
+                                displayInfo("meanRadius",
+                                    CelestialBody.meanRadius.toString()),
+                                displayInfo("equaRadius",
+                                    CelestialBody.equaRadius.toString()),
+                                displayInfo("polarRadius",
+                                    CelestialBody.polarRadius.toString()),
+                                displayInfo("flattening",
+                                    CelestialBody.flattening.toString()),
+                                displayInfo("dimension",
+                                    CelestialBody.dimension.toString()),
+                                displayInfo("sideralOrbit",
+                                    CelestialBody.sideralOrbit.toString()),
+                                displayInfo("sideralRotation",
+                                    CelestialBody.sideralRotation.toString()),
                                 Text("Around Planet"),
-                                displayInfo("planet", CelestialBody.aroundPlanet.planet.toString()),
+                                displayInfo(
+                                    "planet",
+                                    CelestialBody.aroundPlanet.planet
+                                        .toString()),
                                 // displayInfo("rel", CelestialBody.aroundPlanet.rel.toString()),
-                                displayInfo("discoveredBy", CelestialBody.discoveredBy.toString()),
-                                displayInfo("discoveryDate", CelestialBody.discoveryDate.toString()),
-                                displayInfo("alternativeName", CelestialBody.alternativeName.toString()),
-                                displayInfo("axialTilt", CelestialBody.axialTilt.toString()),
-                                displayInfo("avgTemp", CelestialBody.avgTemp.toString()),
-                                displayInfo("mainAnomaly", CelestialBody.mainAnomaly.toString()),
-                                displayInfo("argPeriapsis", CelestialBody.argPeriapsis.toString()),
-                                displayInfo("longAscNode", CelestialBody.longAscNode.toString()),
+                                displayInfo("discoveredBy",
+                                    CelestialBody.discoveredBy.toString()),
+                                displayInfo("discoveryDate",
+                                    CelestialBody.discoveryDate.toString()),
+                                displayInfo("alternativeName",
+                                    CelestialBody.alternativeName.toString()),
+                                displayInfo("axialTilt",
+                                    CelestialBody.axialTilt.toString()),
+                                displayInfo("avgTemp",
+                                    CelestialBody.avgTemp.toString()),
+                                displayInfo("mainAnomaly",
+                                    CelestialBody.mainAnomaly.toString()),
+                                displayInfo("argPeriapsis",
+                                    CelestialBody.argPeriapsis.toString()),
+                                displayInfo("longAscNode",
+                                    CelestialBody.longAscNode.toString()),
                                 // displayInfo("rel", CelestialBody.rel.toString()),
                               ],
                             ),
@@ -109,12 +139,11 @@ class Universe extends StatelessWidget {
       ),
     );
   }
-  
-  Widget displayInfo(String heading, String data){
+
+  Widget displayInfo(String heading, String data) {
     return Row(children: [
-     Text(heading  + ": "),
-     Text(data),
+      Text(heading + ": "),
+      Text(data),
     ]);
   }
-  
 }
