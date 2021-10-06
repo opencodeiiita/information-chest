@@ -1,0 +1,3 @@
+News: https://newsapi.org/v2/everything?q=apple&from=2021-10-05&to=2021-10-05&sortBy=popularity&apiKey=25c84ef181e9426e9186b7039588f596
+Sports: https://www.api-football.com/documentation-v3
+Entertainment: https://api.pokemontcg.io/v2/cards?q=name:gardevoir
