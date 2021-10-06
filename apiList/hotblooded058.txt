@@ -1,0 +1,3 @@
+The Human Body : https://english.api.rakuten.net/montanaflynn/api/ebola-outbreak
+
+Around the world :https://rapidapi.com/mstr1/api/air-quality-converter/
