@@ -1,0 +1,4 @@
+Science & Technology : https://isro.vercel.app/api/spacecrafts
+Sports & Entertainment : https://www.easports.com/fifa/ultimate-team/api/fut/item
+Sports & Entertainment : https://api.pokemontcg.io/v2/cards?q=name:gardevoir
+Universe : https://api.le-systeme-solaire.net/rest/
