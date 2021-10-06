@@ -1,0 +1,6 @@
+Science And technology: https://tle.ivanstanojevic.me/#/docs
+
+Facts: 
+1. Anime Facts: https://chandan-02.github.io/anime-facts-rest-api/
+2. Fun Facts: https://asli-fun-fact-api.herokuapp.com/
+
