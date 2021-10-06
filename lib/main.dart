@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: Universe(),
       // home: const MyHomePage(title: 'Information Chest'),
     );
   }
