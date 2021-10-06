@@ -1,0 +1,15 @@
+Science and technology :- https://www.cryptingup.com/api/markets 
+                          https://api.coinpaprika.com/v1/coins/btc-bitcoin
+                          
+Universe :- https://isro.vercel.app/api/spacecrafts 
+
+Environment :- https://api.carbonintensity.org.uk/intensity/date 
+
+The Natural World :- https://www.fishwatch.gov/api/species
+
+Arts, Sports, and Entertainment :- https://anime-facts-rest-api.herokuapp.com/api/v1 (anime)
+                                   https://api.imgflip.com/get_memes (Popular memes)
+                                   http://musicbrainz.org/ws/2/artist/5b11f4ce-a62d-471e-81fc-a69a8278c7da?fmt=json (music data)
+                                   http://hp-api.herokuapp.com/api/characters
+                                
+World History :- https://data.oddsmagnet.com/
