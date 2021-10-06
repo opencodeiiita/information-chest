@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:information_chest/HomeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Information Chest'),
+      home: HomeScreen(),
+      // home: const MyHomePage(title: 'Information Chest'),
     );
   }
 }
