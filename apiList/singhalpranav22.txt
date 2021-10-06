@@ -1,0 +1,2 @@
+Universe : https://api.le-systeme-solaire.net/rest/bodies/
+Science and Tech : https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=6979a64cc87e45d3bdb9c7056f2120d1
