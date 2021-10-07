@@ -1,0 +1,5 @@
+Universe : https://api.le-systeme-solaire.net/rest/bodies/
+Science and technology : https://www.cryptingup.com/api/markets 
+Environment :- https://api.carbonintensity.org.uk/intensity/date 
+World History :- https://data.oddsmagnet.com/
+Sports:- https://www.api-football.com/documentation-v3
