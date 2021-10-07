@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         '/AroundTheWorld':(context)=>const AroundTheWorld(),
         '/ArtsSportsEntertainment':(context)=>const ArtsSportsEntertainment(),
 
-      }
+      },
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
