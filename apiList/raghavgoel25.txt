@@ -1,0 +1,7 @@
+List of APIs
+
+1.https://public-apis.io/movie-db-api - Art,Sports & Entertainment	
+2.https://public-apis.io/sportmonks-football-api - Art,Sports & Entertainment
+3.https://public-apis.io/fantasy-sports-api - Art,Sports & Entertainment
+4.https://public-apis.io/reel-good-media-api - Art,Sports & Entertainment
+5.https://public-apis.io/good-reads-api - Art,Sports & Entertainment
