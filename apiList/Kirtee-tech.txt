@@ -1,0 +1,22 @@
+The Universe :<br>
+   <a href = "https://www.programmableweb.com/api/ecomatcher-treemanager-rest-api-v10">EcoMatcher TreeManager</a>
+   <a href="https://api.nasa.gov/">NASA</a>
+   <a href="https://www.programmableweb.com/user/register?destination=node/222218&pwaction=track&pwentity=node&pwtrack=222218&pwflag=follow_api">SunCalc</a> 
+Planet Earth :<br>
+   <a href="https://www.programmableweb.com/api/api-hood-global-tides">API Hood Global Tides</a>
+World History :<br>
+   <a href="https://www.programmableweb.com/api/transgender-day-remembrance">Transgender Day of Remembrance</a>
+The Natural World :<br>
+   <a href="https://www.programmableweb.com/api/whale-hotline">The Whale Hotline</a>
+   <a href="https://www.programmableweb.com/api/national-park-service">National Park Service</a>
+The Human Body<br>
+  <a href="https://techcrunch.com/2015/10/01/3d-modeling-startup-biodigital-launches-an-api-for-the-human-body/">
+3D Modeling Startup BioDigital</a>
+Science and technology :<br>
+  <a href="http://auroraslive.io/#/api/v1">Auroras.live DIY</a>
+  <a href="https://public-apis.io/materials-platform-for-data-science-api">Materials Platform for Data Science</a>
+  <a href="https://public-apis.io/open-science-framework-api">Open Science Framework</a>
+Around the world (like landmarks, monuments, etc.) :<br>
+  <a href="https://public-apis.io/usgs-earthquake-hazards-program-api">USGS Earthquake Hazards Program</a>
+Arts, Sports, and Entertainment :<br>
+  <a href="https://www.thesports.com/pricing">Thesports</a>
