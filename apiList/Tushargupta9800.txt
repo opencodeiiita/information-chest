@@ -1,0 +1,8 @@
+Entertainment:- https://developer.marvel.com/docs
+                https://towardsdatascience.com/5-free-and-fun-apis-to-use-for-learning-personal-projects-and-more-1cb37b0d3685
+
+Universe:- https://api.le-systeme-solaire.net/rest/bodies/
+
+Environment:- https://api.carbonintensity.org.uk/intensity/date
+
+Sports:- https://www.api-football.com/documentation-v3

@@ -1,0 +1,9 @@
+Universe : https://api.le-systeme-solaire.net/rest/bodies/
+
+Science and technology: http://data.gbif.org/terms.htm?forwardUrl=http%3A//data.gbif.org/datasets/
+
+Arts, Sports, and Entertainment: https://chandan-02.github.io/anime-facts-rest-api/
+
+                                 https://ghibliapi.herokuapp.com
+
+Planet Earth: https://developers.planet.com/docs/apis/data/

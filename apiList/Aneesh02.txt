@@ -1,0 +1,6 @@
+The Universe:
+- https://api.nasa.gov/planetary/apod
+- https://api.nasa.gov/planetary/earth/imagery
+- https: //api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0
+World History
+- http://thebigdb.com/
