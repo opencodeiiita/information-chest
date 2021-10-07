@@ -1,0 +1,5 @@
+World History :- http://api.hiztory.org/
+
+Science and technology :- http://api.plos.org/
+
+Around the world (Monuments) :- https://heritage.toolforge.org/api/api.php
