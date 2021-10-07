@@ -38,12 +38,10 @@ class Source {
 }
 
 Future<List<ScienceAndTechModel>> getAllScienceAndTechList(var response) async {
-
   List<ScienceAndTechModel> allList = [];
   var res = await json.decode(response.body)['bodies'];
   for (var fact in res) {
     allList.add(ScienceAndTechModel.fromJson(fact));
   }
   return allList;
-
 }
