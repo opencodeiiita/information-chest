@@ -1,5 +1,0 @@
-science and technology   :-https://newsapi.org/
-sports and entertainment :-https://newsapi.org/
-(news api has a free endpoint of latest sci and tech , sports events)
-human body :- https://english.api.rakuten.net/gabamnml/api/health
-Planet Earth:-https://developers.planet.com/docs/apis/data/
