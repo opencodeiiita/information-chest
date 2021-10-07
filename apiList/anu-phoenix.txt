@@ -1,0 +1,6 @@
+arts and design:
+1.https://api.artic.edu/docs/
+2.http://www.colourlovers.com/api
+
+news:
+1.https://mediastack.com/
