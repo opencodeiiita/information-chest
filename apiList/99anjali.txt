@@ -1,0 +1,4 @@
+Art and Design: https://icons8.docs.apiary.io/#reference/0/meta
+Universe: http://www.asterank.com/mpc
+Sports: https://developers.decathlon.com/products/sports
+        https://developers.strava.com/
