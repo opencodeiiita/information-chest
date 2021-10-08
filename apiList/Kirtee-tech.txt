@@ -1,0 +1,11 @@
+The Universe 
+   NASA: https://api.nasa.gov
+
+Science and technology 
+  Auroras.live DIY: http://auroraslive.io/#/api/v1
+  Materials Platform for Data Science : https://public-apis.io/materials-platform-for-data-science-api
+  Open Science Framework : https://public-apis.io/open-science-framework-api
+
+Around the world (like landmarks, monuments, etc.) 
+  USGS Earthquake Hazards Program: https://public-apis.io/usgs-earthquake-hazards-program-api
+
