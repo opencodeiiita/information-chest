@@ -1,0 +1,8 @@
+Around the world: https://closetothepoint.com/api/v1/
+
+World History :http://texashistory.unt.edu/
+http://ch1.shef.ac.uk/connectedhistories/
+
+Science and Technology: http://ondemand.websol.barchart.com/getHistory.xml
+
+Art, Sports and Entertainment : https://ghibliapi.herokuapp.com

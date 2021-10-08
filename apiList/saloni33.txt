@@ -1,0 +1,2 @@
+https://isro.vercel.app/api/spacecrafts - Universe
+https://api.carbonintensity.org.uk/intensity/date - Environment

@@ -1,0 +1,2 @@
+Entertainment : https://www.reddit.com/r/pics.json
+Health&Fitness : https://apps.who.int/gho/athena/api/?format=json

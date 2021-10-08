@@ -1,0 +1,8 @@
+Sports: Sportmonks
+https://www.sportmonks.com/
+
+The Universe: NASA'Open Data Portal
+https://data.nasa.gov/
+
+Entertainment: Spotify API
+https://developer.spotify.com/documentation/web-api/

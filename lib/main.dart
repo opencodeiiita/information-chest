@@ -14,10 +14,23 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Information Chest',
+      initialRoute:'/',
+      routes:{
+        '/':(context)=>const Homescreen(),
+        '/Universe':(context)=>const Universe(),
+        '/PlanetEarth':(context)=>const PlanetEarth(),
+        '/WorldHistory':(context)=>const WorldHistory(),
+        '/NaturalWorld':(context)=>const NaturalWorld(),
+        '/HumanBody':(context)=>const HumanBody(),
+        '/ScienceTechnology':(context)=>const ScienceTechnology(),
+        '/AroundTheWorld':(context)=>const AroundTheWorld(),
+        '/ArtsSportsEntertainment':(context)=>const ArtsSportsEntertainment(),
+
+      },
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: Universe(),
       // home: const MyHomePage(title: 'Information Chest'),
     );
   }

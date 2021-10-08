@@ -1,0 +1,4 @@
+Arts, Sports, and Entertainment :https://anime-facts-rest-api.herokuapp.com/api/v1 (anime)
+                                 https://api.imgflip.com/get_memes (Popular memes)
+                                 http://musicbrainz.org/ws/2/artist/5b11f4ce-a62d-471e-81fc-a69a8278c7da?fmt=json (music data)
+Science and technology : https://www.cryptingup.com/api/markets                                  
