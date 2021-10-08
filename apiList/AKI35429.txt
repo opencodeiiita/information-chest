@@ -1,0 +1,5 @@
+The Universe: http://astrometry.ch:5000/perihelion/
+World History : http://discovery.ac.uk/ww1/api/
+Science and technology : https://api.spacexdata.com/v2/launches
+Around the world (like landmarks, monuments, etc.) :https://api.aucklandmuseum.com/#auckland-museum-api
+Arts : https://api.artsy.net/api
