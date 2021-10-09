@@ -1,0 +1,11 @@
+The Natural World - https://www.fishwatch.gov/api/species 
+
+Planet Earth - https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&output=json&tzshift=0 
+
+Environment - https://meersens.com/api/?lang=en 
+
+Universe - https://isro.vercel.app/api/spacecrafts 
+
+Sports - https://www.api-football.com/documentation-v3 
+
+news - https://mediastack.com/
