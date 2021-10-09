@@ -30,13 +30,13 @@ Information-Chest
 ├── pubspec.lock
 ├── icon.svg
 ├── .github
-    ├── workflows
-        ├── flutter-ci.yaml
+    └── workflows
+        └── flutter-ci.yaml
 ├── android
 ├── ios
 └── lib
     ├── main.dart
-    └── screens
+    ├── screens
         ├── around_the_world.dart
         ├── art_sport_enter.dart
         ├── home_screen.dart
