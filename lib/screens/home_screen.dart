@@ -1,53 +1,58 @@
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({Key? key}) : super(key: key);
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<ContentModel> ContentList = [
-    ContentModel("Universe", Icon(Icons.arrow_forward), Colors.blue[200]!),
-    ContentModel("Planet Earth", Icon(Icons.arrow_forward), Colors.green[200]!),
+  List<ContentModel> contentList = [
     ContentModel(
-        "World History", Icon(Icons.arrow_forward), Colors.purple[200]!),
+        "Universe", const Icon(Icons.arrow_forward), Colors.blue[200]!),
     ContentModel(
-        "The Natural World", Icon(Icons.arrow_forward), Colors.grey[200]!),
-    ContentModel("The Human Body", Icon(Icons.arrow_forward), Colors.red[200]!),
-    ContentModel("Science and Technology", Icon(Icons.arrow_forward),
+        "Planet Earth", const Icon(Icons.arrow_forward), Colors.green[200]!),
+    ContentModel(
+        "World History", const Icon(Icons.arrow_forward), Colors.purple[200]!),
+    ContentModel("The Natural World", const Icon(Icons.arrow_forward),
+        Colors.grey[200]!),
+    ContentModel(
+        "The Human Body", const Icon(Icons.arrow_forward), Colors.red[200]!),
+    ContentModel("Science and Technology", const Icon(Icons.arrow_forward),
         Colors.orange[200]!),
-    ContentModel(
-        "Around the World", Icon(Icons.arrow_forward), Colors.purple[200]!),
-    ContentModel("Arts, Sports and Entertainment", Icon(Icons.arrow_forward),
-        Colors.yellow[200]!),
+    ContentModel("Around the World", const Icon(Icons.arrow_forward),
+        Colors.purple[200]!),
+    ContentModel("Arts, Sports and Entertainment",
+        const Icon(Icons.arrow_forward), Colors.yellow[200]!),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Content"),
+        title: const Text("Content"),
       ),
-      body: Container(
+      body: SizedBox(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         child: ListView.builder(
-            itemCount: ContentList.length,
+            itemCount: contentList.length,
             itemBuilder: (BuildContext context, int index) {
               return GestureDetector(
                 onTap: () {},
                 child: Container(
-                  color: ContentList[index].color,
+                  color: contentList[index].color,
                   child: Row(
                     children: [
-                      Container(
+                      SizedBox(
                         height: MediaQuery.of(context).size.height / 10,
-                        child: ContentList[index].icon,
+                        child: contentList[index].icon,
                       ),
-                      Container(
+                      SizedBox(
                         child: Text(
-                          ContentList[index].name,
-                          style: TextStyle(
+                          contentList[index].name,
+                          style: const TextStyle(
                               fontSize: 20, fontWeight: FontWeight.bold),
                         ),
                       ),
