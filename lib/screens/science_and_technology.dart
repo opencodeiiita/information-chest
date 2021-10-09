@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-class ScienceAndTechnology extends StatefulWidget {
-  const ScienceAndTechnology({Key? key}) : super(key: key);
+class ScienceAndTechnologyScreen extends StatefulWidget {
+  const ScienceAndTechnologyScreen({Key? key}) : super(key: key);
 
   @override
-  _ScienceAndTechnologyState createState() => _ScienceAndTechnologyState();
+  _ScienceAndTechnologyScreenState createState() =>
+      _ScienceAndTechnologyScreenState();
 }
 
-class _ScienceAndTechnologyState extends State<ScienceAndTechnology> {
+class _ScienceAndTechnologyScreenState
+    extends State<ScienceAndTechnologyScreen> {
   @override
   void initState() {
     super.initState();
@@ -32,9 +34,7 @@ class _ScienceAndTechnologyState extends State<ScienceAndTechnology> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Container(
-          child: Text(data),
-        ),
+        child: Text(data),
       ),
     );
   }

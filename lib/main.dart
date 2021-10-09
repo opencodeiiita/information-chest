@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
-import 'Universe.dart';
-import 'package:information_chest/HomeScreen.dart';
+import 'package:information_chest/screens/around_the_world.dart';
+import 'package:information_chest/screens/art_sport_enter.dart';
+import 'package:information_chest/screens/human_body_screen.dart';
+import 'package:information_chest/screens/natural_world_screen.dart';
+import 'package:information_chest/screens/planet_earth.dart';
+import 'package:information_chest/screens/science_and_technology.dart';
+import 'package:information_chest/screens/world_history_screen.dart';
+import 'screens/universe.dart';
+import 'package:information_chest/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,44 +23,21 @@ class MyApp extends StatelessWidget {
       title: 'Information Chest',
       initialRoute: '/',
       routes: {
-        '/': (context) => const Homescreen(),
+        '/': (context) => const HomeScreen(),
         '/Universe': (context) => const Universe(),
-        '/PlanetEarth': (context) => const PlanetEarth(),
-        '/WorldHistory': (context) => const WorldHistory(),
-        '/NaturalWorld': (context) => const NaturalWorld(),
-        '/HumanBody': (context) => const HumanBody(),
-        '/ScienceTechnology': (context) => const ScienceTechnology(),
-        '/AroundTheWorld': (context) => const AroundTheWorld(),
+        '/PlanetEarth': (context) => const PlanetEarthScreen(),
+        '/WorldHistory': (context) => const WorldHistoryScreen(),
+        '/NaturalWorld': (context) => const NaturalWorldScreen(),
+        '/HumanBody': (context) => const HumanBodyScreen(),
+        '/ScienceTechnology': (context) => const ScienceAndTechnologyScreen(),
+        '/AroundTheWorld': (context) => const AroundTheWorldScreen(),
         '/ArtsSportsEntertainment': (context) =>
-            const ArtsSportsEntertainment(),
+            const ArtsSportsEntertainmentScreen(),
       },
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Universe(),
-      // home: const MyHomePage(title: 'Information Chest'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: const Center(
-        child: Text('Start contributing from here :)'),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      home: const Universe(),
     );
   }
 }

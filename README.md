@@ -21,6 +21,38 @@ A Flutter application for reading facts and information, just like a digital enc
 
 Before cloning the project make sure you have set up the IDE correctly according to the resources given in the getting started section. 
 
+## File Structure
+```
+Information-Chest
+├── README.md
+├── analysis_options.yaml
+├── pubspec.yaml
+├── pubspec.lock
+├── icon.svg
+├── .github
+    └── workflows
+        └── flutter-ci.yaml
+├── android
+├── ios
+└── lib
+    ├── main.dart
+    ├── screens
+        ├── around_the_world.dart
+        ├── art_sport_enter.dart
+        ├── home_screen.dart
+        ├── human_body_screen.dart
+        ├── natural_world_screen.dart
+        ├── planet_earth.dart
+        ├── science_and_technology.dart
+        ├── universe.dart
+        └── world_history_screen.dart
+    └── models
+        ├── celestial_body_model.dart
+        └── science_and_tech_model.dart
+```
+
+
+
 ## How to contribute
 
 - After setting up the project on the local system, go to the issues section to claim issues.
