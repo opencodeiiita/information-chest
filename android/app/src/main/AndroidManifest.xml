@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.information_chest">
-   <application
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
         android:label="information_chest"
         android:icon="@mipmap/ic_launcher">
         <activity
